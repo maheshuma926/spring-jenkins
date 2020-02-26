@@ -18,5 +18,12 @@ class SpringJenkinsApplicationTests {
 		assertEquals(true, true);
 		System.out.println("Executing test case... end");
 	}
+	
+	@Test
+	void contextLoads2() {
+		System.out.println("Executing test case2... started");
+		assertEquals(true, true);
+		System.out.println("Executing test case2... end");
+	}
 
 }
